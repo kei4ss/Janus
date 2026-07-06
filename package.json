@@ -1,0 +1,19 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node ./dist/Main.js",
+    "watch": "npx tsc --watch"
+  },
+  "keywords": [],
+  "author": "Miquéias Ferreira Dos Santos",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "typescript": "^6.0.3"
+  }
+}
