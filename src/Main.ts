@@ -1,5 +1,9 @@
-function main(): void {
-    
+import startApp from "./infra/express/app.js";
+import {initializeDatabase} from "./infra/sequelize/db.js"
+
+const main = async()=>{
+    await initializeDatabase();
+    startApp()
 }
 
-main();
+main()
