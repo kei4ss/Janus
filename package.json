@@ -12,8 +12,13 @@
   "keywords": [],
   "author": "Miquéias Ferreira Dos Santos",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/sequelize": "^4.28.20",
+    "express": "^5.2.1",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1",
     "typescript": "^6.0.3"
   }
 }
