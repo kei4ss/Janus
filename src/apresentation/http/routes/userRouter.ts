@@ -1,7 +1,7 @@
 import {Router, Request, Response} from "express"
 import Iuser from "../../../domain/interfaces/user.js"
 import {IuserResponse} from "../../../domain/interfaces/user.js"
-import userRepo from "../../sequelize/models/UserSequelizeModel.js"
+import userRepo from "../../../infra/repository/UserRepo.js"
 
 const userRouter = Router()
 

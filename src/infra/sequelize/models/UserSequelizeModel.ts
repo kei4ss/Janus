@@ -8,7 +8,7 @@ class UserSequelizeModel
     extends Model<Iuser, ICreationUser>
     implements Iuser
 {
-    declare id: string;
+    declare id: number;
     declare nome: string;
     declare username: string;
     declare senha: string;
